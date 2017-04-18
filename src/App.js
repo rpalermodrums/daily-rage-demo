@@ -19,8 +19,8 @@ class App extends Component {
             </ul>
           </nav>
         </header>
-          {/*<Homepage />*/}
-          <ArticlePage />
+          <Homepage />
+          {/*<ArticlePage />*/}
       </div>
 
         <footer className="clearfix">
