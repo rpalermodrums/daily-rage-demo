@@ -32,17 +32,17 @@ class Homepage extends Component {
             </div>
             <div className="column-group gutters">
               <div className="all-50 small-100 tiny-100">
-                <img alt='' src="images/Gamestop.jpg" />
+                <img alt='' src={require("./images/Gamestop.jpg")} height={330} />
                 GOVERNMENT SHOULD RUN LIKE A BUSINESS, SPECIFICALLY GAMESTOP
               </div>
               <div className="all-50 small-100 tiny-100">
-                <img alt='' src="../assets/js/holder.js/600x430/ink/auto/text: another story" />
-                TRUMP SCORES MAJOR VICTORY AS MEXICO CONTRIBUTES UNPAID INTERN TO BORDER WALL
+                <img alt='' src={require("./images/trump-plantation.jpg")} height={330} />
+                TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS
               </div>
             </div>
             <div className="column-group gutters">
               <div className="all-33 small-100 tiny-100"><img alt='' src="../assets/js/holder.js/600x430/ink/auto/text: HEROIC GUN OWNER SHOOTS MAN WHO HYPOTHETICALLY COULD HAVE BURGLARIZED HIM" /></div>
-              <div className="all-33 small-100 tiny-100"><img alt='' src="../assets/js/holder.js/600x430/ink/auto/text: TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS" /></div>
+              <div className="all-33 small-100 tiny-100"><img alt='' src="../assets/js/holder.js/600x430/ink/auto/" /></div>
               <div className="all-33 small-100 tiny-100"><img alt='' src="../assets/js/holder.js/600x430/ink/auto/text: I'M AFRAID OF BROWN PEOPLE, AND I'M TIRED OF BEING CALLED A RACIST FOR THAT" /></div>
             </div>
           </div>

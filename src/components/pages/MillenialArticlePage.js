@@ -13,7 +13,7 @@ class MillenialArticlePage extends Component {
               </header>
               <summary>But being in a great hurry to resume scolding the man in the purple Shirt, who was waiting for it in the entry, and seeming to hear nothing but the word "clam," Mrs. Hussey hurried towards an open door leading to the kitchen, and bawling out "clam for two," disappeared.</summary>
               <figure className="ink-image vertical-space">
-                <img src="images/pampered-millennial.jpg" alt="" />
+                <img src={require("./images/pampered-millennial.jpg")} alt="" />
                   <figcaption className="dark over-bottom">
                     "Because you wear silver shoes and have killed the Wicked Witch. Besides, you have white in your frock, and only witches and sorceresses wear white."
                   </figcaption>
