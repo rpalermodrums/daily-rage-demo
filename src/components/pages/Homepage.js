@@ -22,11 +22,11 @@ class Homepage extends Component {
             </div>
             <div className="column-group gutters">
               <div className="all-50 small-100 tiny-100">
-                <a href="articles/white-nationalist"><img src={require("./images/trump-white-nationalist.jpg")} alt="" height={315} /></a>
+                <a href="articles/white-nationalist"><img src={require("./images/trump-white-nationalist.jpg")} alt="" height={300} /></a>
                 TRUMP: "NO I AM NOT A WHITE NATIONALIST. WAIT, WHAT'S WHITE NATIONALISM? OH, IN THAT CASE I'M TOTALLY IN FAVOR OF IT."
               </div>
               <div className="all-50 small-100 tiny-100">
-                <a href="/articles/plantation"><img alt='' src={require("./images/trump-plantation.jpg")} height={315} /></a>
+                <a href="/articles/plantation"><img alt='' src={require("./images/trump-plantation.jpg")} height={300} /></a>
                 TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS
               </div>
             </div>
