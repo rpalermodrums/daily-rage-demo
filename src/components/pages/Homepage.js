@@ -4,9 +4,9 @@ class Homepage extends Component {
   render () {
     return (
       <div>
-        <section className="pub hide-all show-large show-xlarge xlarge-push-right large-push-right">
+        {/*<section className="pub hide-all show-large show-xlarge xlarge-push-right large-push-right">*/}
 
-        </section>
+        {/*</section>*/}
 
         <section className="highlight">
           <div className="highlight-wrapper">
@@ -23,11 +23,11 @@ class Homepage extends Component {
             </div>
             <div className="column-group gutters">
               <div className="all-50 small-100 tiny-100">
-                <img alt='' src={require("./images/Gamestop.jpg")} height={330} />
+                <img alt='' src={require("./images/Gamestop.jpg")} height={315} />
                 GOVERNMENT SHOULD RUN LIKE A BUSINESS, SPECIFICALLY GAMESTOP
               </div>
               <div className="all-50 small-100 tiny-100">
-                <a href="/articles/plantation"><img alt='' src={require("./images/trump-plantation.jpg")} height={330} /></a>
+                <a href="/articles/plantation"><img alt='' src={require("./images/trump-plantation.jpg")} height={315} /></a>
                 TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS
               </div>
             </div>

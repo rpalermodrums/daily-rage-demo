@@ -14,9 +14,11 @@ class App extends Component {
         <div className="ink-grid">
           <div >
           <header className="vertical-space">
-            <h1>DAILY RAGE<small>Some tag line</small></h1>
+            <h1 className='site-title'>DAILY RAGE
+              {/*<small>Some tag line</small>*/}
+            </h1>
             <nav className="ink-navigation">
-              <ul className="menu horizontal black">
+              <ul className="menu horizontal red">
                 <li className="active"><a href="/">Home</a></li>
               </ul>
             </nav>
