@@ -13,7 +13,7 @@ class App extends Component {
         <div className="ink-grid">
           <div >
           <header className="vertical-space">
-            <h1>Daily Rage<small>Some tag line</small></h1>
+            <h1>DAILY RAGE<small>Some tag line</small></h1>
             <nav className="ink-navigation">
               <ul className="menu horizontal black">
                 <li className="active"><a href="#">Home</a></li>
