@@ -34,15 +34,12 @@ class InternArticlePage extends Component {
                 He hopes to contribute to the border wall by providing his renowned administrative assistance and
 
                 customer service skills. This is a win for the Trump campaign by any stretch of the imagination.
+              </p>
 
+              <p>
                 For his part, Nieto has stated that Brian was difficult to part with, but Trump drove a hard bargain.
               </p>
 
-              <p>“This plan will do wonders for the African-American community,” Sessions stated in an
-
-                 interview, noting that the cotton-picking industry had, at one point, reduced America’s black
-
-                 unemployment rate to zero percent.</p>
 
               <p>“I don’t really care about losing Brian. He was okay. Kind of incompetent actually. Like, you would ask
 
