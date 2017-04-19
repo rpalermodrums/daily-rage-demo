@@ -4,6 +4,7 @@ import './App.css';
 import Homepage from './components/pages/Homepage';
 import MillenialArticlePage from './components/pages/MillenialArticlePage';
 import PlantationArticlePage from './components/pages/PlantationArticlePage';
+import GenderArticlePage from './components/pages/GenderArticlePage';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ class App extends Component {
             <Route exact path='/' component={Homepage} />
             <Route path='/articles/millenials' component={MillenialArticlePage} />
             <Route path='/articles/plantation' component={PlantationArticlePage} />
+            <Route path='/articles/gender' component={GenderArticlePage} />
 
         </div>
 

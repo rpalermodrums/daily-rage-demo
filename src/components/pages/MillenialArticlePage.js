@@ -83,12 +83,8 @@ class MillenialArticlePage extends Component {
             <h2>Related</h2>
             <ul className="unstyled">
               <li className="column-group half-gutters">
-                <div className="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt="" /></div>
-                <div className="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
-              </li>
-              <li className="column-group half-gutters">
-                <div className="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt="" /></div>
-                <div className="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                <div className="all-40 small-50 tiny-50"><a href="/articles/gender"><img src={require("./images/gender-roles.png")} alt="" /></a></div>
+                <div className="all-60 small-50 tiny-50"><p>IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</p></div>
               </li>
               <li className="column-group half-gutters">
                 <div className="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt="" /></div>
@@ -106,31 +102,31 @@ class MillenialArticlePage extends Component {
           </section>
         </section>
         <section className="column-group gutters">
-          <div className="all-20 small-100 tiny-100">
-            <h3>heading</h3>
-            <img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />
-              <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
-          </div>
-          <div className="all-20 small-100 tiny-100">
-            <h3>heading</h3>
-            <img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />
-              <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
-          </div>
-          <div className="all-20 small-100 tiny-100">
-            <h3>heading</h3>
-            <img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />
-              <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
-          </div>
-          <div className="all-20 small-100 tiny-100">
-            <h3>heading</h3>
-            <img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />
-              <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
-          </div>
-          <div className="all-20 small-100 tiny-100">
-            <h3>heading</h3>
-            <img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />
-              <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
-          </div>
+          {/*<div className="all-20 small-100 tiny-100">*/}
+            {/*<h3>heading</h3>*/}
+            {/*<img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />*/}
+              {/*<p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>*/}
+          {/*</div>*/}
+          {/*<div className="all-20 small-100 tiny-100">*/}
+            {/*<h3>heading</h3>*/}
+            {/*<img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />*/}
+              {/*<p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>*/}
+          {/*</div>*/}
+          {/*<div className="all-20 small-100 tiny-100">*/}
+            {/*<h3>heading</h3>*/}
+            {/*<img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />*/}
+              {/*<p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>*/}
+          {/*</div>*/}
+          {/*<div className="all-20 small-100 tiny-100">*/}
+            {/*<h3>heading</h3>*/}
+            {/*<img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />*/}
+              {/*<p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>*/}
+          {/*</div>*/}
+          {/*<div className="all-20 small-100 tiny-100">*/}
+            {/*<h3>heading</h3>*/}
+            {/*<img className="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="" />*/}
+              {/*<p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>*/}
+          {/*</div>*/}
         </section>
       </div>
     )
