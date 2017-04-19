@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import { Router, Route, browserHistory } from 'react-router';
-import App from './src/App';
-import Homepage from './src/components/pages/Homepage';
-import ArticlePage from './src/components/pages/ArticlePage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import App from './App';
+import Homepage from './components/pages/Homepage';
+import ArticlePage from './components/pages/ArticlePage';
 
 
 class Routes extends Component {
   render () {
     return (
-      <Router history={browserHistory}>
+      <Router>
         <Route path='/' component={App} >
           <Route path='home' component={Homepage} />
           <Route path='article/:id' component={ArticlePage} />
@@ -17,3 +17,5 @@ class Routes extends Component {
     )
   }
 }
+
+export default Routes;

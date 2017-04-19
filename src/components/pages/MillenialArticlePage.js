@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ArticlePage extends Component {
+class MillenialArticlePage extends Component {
   render () {
     return (
       <div className="ink-grid">
@@ -8,18 +8,76 @@ class ArticlePage extends Component {
           <div className="xlarge-70 large-70 medium-60 small-100 tiny-100">
             <article>
               <header>
-                <h1 className="push-left">Article title</h1>
-                <p className="push-right">Published: </p>
+                <h1 className="push-left">Pampered Millennial Feels Entitled To Non-Demagogue President</h1>
+                {/*<p className="push-right">Published: <time /></p>*/}
               </header>
               <summary>But being in a great hurry to resume scolding the man in the purple Shirt, who was waiting for it in the entry, and seeming to hear nothing but the word "clam," Mrs. Hussey hurried towards an open door leading to the kitchen, and bawling out "clam for two," disappeared.</summary>
               <figure className="ink-image vertical-space">
-                <img src="holder.js/1200x600/auto/ink" alt="" />
+                <img src="images/pampered-millennial.jpg" alt="" />
                   <figcaption className="dark over-bottom">
                     "Because you wear silver shoes and have killed the Wicked Witch. Besides, you have white in your frock, and only witches and sorceresses wear white."
                   </figcaption>
               </figure>
-              <p><blockquote>"Queequeg," said I, "do you think that we can make out a supper for us both on one clam?"</blockquote></p>
-              <p>However, a warm savory steam from the kitchen served to belie the apparently cheerless prospect before us. But when that smoking chowder came in, the mystery was delightfully explained. Oh, sweet friends! hearken to me. It was made of small juicy clams, scarcely bigger than hazel nuts, mixed with pounded ship biscuit, and salted pork cut up into little flakes; the whole enriched with butter, and plentifully seasoned with pepper and salt. Our appetites being sharpened by the frosty voyage, and in particular, Queequeg seeing his favourite fishing food before him, and the chowder being surpassingly excellent, we despatched it with great expedition: when leaning back a moment and bethinking me of Mrs. Hussey's clam and cod announcement, I thought I would try a little experiment. Stepping to the kitchen door, I uttered the word "cod" with great emphasis, and resumed my seat. In a few moments the savoury steam came forth again, but with a different flavor, and in good time a fine cod-chowder was placed before us.</p>
+              <p>NEW JERSEY—Over a month after the election of Donald Trump, 24-year- old Nicole
+
+                 Schrachter refuses to accept the result, choosing instead to shelter herself from, as she puts it, “a
+
+                 pretty obvious bigot.”</p>
+
+              <p><blockquote>"Everything he wanted to do was either impractical or racist, or both. I mean, he wanted to ban an entire religion from the country.”</blockquote></p>
+
+
+              <p>“I get that he won, I mean I respect the democratic process or whatever. I just kind of had faith
+
+                 that people didn&#39;t suck as much as I thought they did,” Nicole said when we interviewed her in
+
+                 the three-foot closet she uses as a bedroom. “I just…like…wanted a president that wasn’t a racist
+
+                 demagogue, or a vice president that didn’t approve of electro-shocking gay people. Also, why
+
+                 are you in my apartment?”</p>
+
+              <p>Nicole’s father, Allan, was more level-headed. He supported Donald Trump in the election and
+
+                 considers the election a healthy wake-up call for his daughter.</p>
+
+              <p>
+                “Nicole has been handed everything in life,” Allan said. “She’s always complaining about the
+
+                job market, but she’s working three cushy minimum-wage jobs! When Trump won, it was the
+
+                first time Nicole didn’t get what she wanted.&quot;
+              </p>
+
+              <p>When asked why she supported Hillary Clinton, Nicole dodged the question.</p>
+
+              <p>“No, I’m serious, why are you in my apartment?” she said, clearly uncomfortable being asked to
+
+                 defend Clinton’s crimes.</p>
+
+              <p>We checked in with Nicole’s father at his home, which he bought at 25 years old using the
+
+                 savings from working at Dairy Queen during the summers.</p>
+
+              <p>“Nicole doesn’t like Trump because she doesn’t understand the struggles of working class
+
+                 people. She’s always throwing away her money on frivolous things like paying back her student
+
+                 loans!” Allan said.</p>
+
+              <p>For her part, Nicole could not provide a specific reason for opposing the president-elect.</p>
+
+              <p>“Everything he wanted to do was either impractical or racist, or both. I mean, he wanted to ban
+
+                 an entire religion from the country. Did we just forget about that? Wait, no, I’m not answering
+
+                 any more questions. Get out of my apartment or I’m calling the police.”</p>
+
+              <p>Why Nicole was so defensive remains to be seen. What is clear is that Nicole, like other
+
+                 millennials, will never appreciate the sacrifices their parents have made in shaping the America
+
+                 they live in: one in which Donald Trump will be the President of the United States.</p>
               <footer>
                 <p><small>Creative Commons Attribution-ShareAlike License</small></p>
               </footer>
@@ -83,4 +141,4 @@ class ArticlePage extends Component {
   }
 }
 
-export default ArticlePage
+export default MillenialArticlePage
