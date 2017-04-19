@@ -87,16 +87,16 @@ class MillenialArticlePage extends Component {
                 <div className="all-60 small-50 tiny-50"><p className='related-text'>IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</p></div>
               </li>
               <li className="column-group half-gutters">
-                <div className="all-40 small-50 tiny-50"><img src={require("./images/Wifi.jpg")} alt="" /></div>
+                <div className="all-40 small-50 tiny-50"><a href="/articles/wifi"><img src={require("./images/Wifi.jpg")} alt="" /></a></div>
                 <div className="all-60 small-50 tiny-50"><p className='related-text'>MILLENNIALS ARE COMPLETELY UNPREPARED FOR THE REAL WORLD. ALSO, CAN ONE OF YOU HELP ME CONNECT TO MY WI-FI?</p></div>
+              </li>
+              <li className="column-group half-gutters">
+                <div className="all-40 small-50 tiny-50"><a href="/articles/white-nationalist"><img src={require("./images/trump-white-nationalist.jpg")} alt="" /></a></div>
+                <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP: "NO I AM NOT A WHITE NATIONALIST. WAIT, WHAT'S WHITE NATIONALISM? OH, IN THAT CASE I'M TOTALLY IN FAVOR OF IT."</p></div>
               </li>
               <li className="column-group half-gutters">
                 <div className="all-40 small-50 tiny-50"><img src={require("./images/north-korea.jpg")} alt="" /></div>
                 <div className="all-60 small-50 tiny-50"><p className='related-text'>I DON'T KNOW MUCH, BUT I DO KNOW THAT THE COMPLICATED AND VOLATILE SITUATION IN NORTH KOREA WOULD BE SOLVED IF OUR LEADERS JUST GREW SOME BALLS</p></div>
-              </li>
-              <li className="column-group half-gutters">
-                <div className="all-40 small-50 tiny-50"><img src={require("./images/trump-white-nationalist.jpg")} alt="" /></div>
-                <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP: "NO I AM NOT A WHITE NATIONALIST. WAIT, WHAT'S WHITE NATIONALISM? OH, IN THAT CASE I'M TOTALLY IN FAVOR OF IT."</p></div>
               </li>
             </ul>
           </section>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GenderArticlePage extends Component {
+class WifiArticlePage extends Component {
   render () {
     return (
       <div className="ink-grid">
@@ -8,55 +8,57 @@ class GenderArticlePage extends Component {
           <div className="xlarge-70 large-70 medium-60 small-100 tiny-100">
             <article>
               <header>
-                <h1 className="push-left">IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</h1>
-                <p className="push-right">By Roy S. Patterson</p>
+                <h1 className="push-left">MILLENNIALS ARE COMPLETELY UNPREPARED FOR THE REAL WORLD. ALSO, CAN ONE OF YOU HELP ME CONNECT TO MY WI-FI?</h1>
+                <p className="push-right">By Geoffrey Bowden, Sr.</p>
               </header>
               <figure className="ink-image vertical-space">
-                <img src={require("./images/gender-roles.png")} alt="" height={500}/>
+                <img src={require("./images/Wifi.jpg")} alt="" height={500}/>
               </figure>
-              <p>Nobody has suffered more from the dissolution of gender norms than American women. This cultural
+              <p>Every day I see more and more evidence that today&#39;s crop of young people is the worst this country has
 
-                 shift has upset a critical balance within our society and forced females into unnatural roles. No matter
+                 ever seen. Political correctness and so-called “safe spaces” have turned this generation into a crop of
 
-                 what feminists tell you, every woman wants to do the same three things: cook, clean, and die during
+                 sensitive, coddled, over-protected numbskulls. It’s hard to see how they can survive in the modern
 
-                 childbirth.</p>
+                 world, which can be a complicated and difficult place.</p>
 
-              <p>Believe me, I love women. That’s why I’m so passionate about ensuring they meet untimely, preventable
+              <p>(On a quick sidenote, I’m having trouble connecting to the internet right now. Can somebody give me a
 
-                 deaths. Whenever I see a stressed out female CEO, I think about how much happier she would be with
+                 hand?)</p>
 
-                 undiagnosed eclampsia and internal hemorrhaging. It&#39;s common knowledge that a woman’s soft,
+              <p>I was a college student during the Vietnam War. Many of my peers burned their draft cards and got
 
-                 osteoporotic bones aren’t meant for working an office job. No, women should stay home and enjoy the
+                 arrested at protests—I didn’t, I was too busy working part-time at my dad’s accounting firm—but it was
 
-                 simple comforts of bleeding out when their baby is in breech.</p>
+                 a tumultuous time, filled with civil unrest. That struggle hardened my generation in ways that the
 
-              <p>It’s time to embrace the fact that men and women have separate biology. After all, society only finds
+                 millennial generation, which grew up in a time defined by constant paranoia over terrorist attacks and
 
-                 harmony when men act like men and women act like women. God created the sexes as two halves of a
-
-                 whole. There is no better way for women to honor this divine feminine gift than having a life expectancy
-
-                 of 34.</p>
+                 school shootings, could never understand.</p>
 
               <p>
-                Think for a moment. Imagine the America of your great-grandparents. The wonder of a friendly
+                (Not to dwell on the subject, but I’m really in a bind here. I double-clicked on Internet Explorer several
 
-                suburban neighborhood, local innovation on every street corner. Your great-grandmother, nine months
+                times but I keep getting a message that says “This page cannot be displayed.” I haven’t been able to
 
-                pregnant, preparing a fresh plate of eggs and bacon for her beloved. Your great-grandfather kissing her
+                check my email for a week. I would usually ask my grandson for help but he asked me to stop calling him
 
-                on the cheek and heading to his job at the automotive factory. He is attaching the wheel to a Model T
+                every day for computer advice. Maybe I should just call him. I don’t know what to do. This stuff makes
 
-                when he receives a telegram that his wife is in labor. He wipes the sweat off his brow and smiles to
+                no sense. It’s ridiculous. They should really make these things easier to understand. I’ll send him a text.
 
-                himself. He is a proud, hard-working American. Your great-grandmother dies within the hour from a
-
-                cervical tear.
+                He usually responds to my texts.)
               </p>
 
-              <p>This is the America we must return to.</p>
+              <p>The point is, millennials are too soft for the real world. They’re treated like special little snowflakes from
+
+                 the time they’re born and so it’s no wonder they can’t do anything!</p>
+
+              <p>(Oh good, my grandson texted me back. He said “Unplug your router and plug it back in again.” I don’t
+
+                 know what that means. This is a mess. Just a mess.)</p>
+
+              <p>I sincerely hope the millennial generation gets itself together. But I won&#39;t cross my...</p>
 
               <footer>
                 <p><small>Creative Commons Attribution-ShareAlike License</small></p>
@@ -70,16 +72,16 @@ class GenderArticlePage extends Component {
               <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS</p></div>
             </li>
             <li className="column-group half-gutters">
-              <div className="all-40 small-50 tiny-50"><a href="/articles/wifi"><img src={require("./images/Wifi.jpg")} alt="" /></a></div>
-              <div className="all-60 small-50 tiny-50"><p className='related-text'>MILLENNIALS ARE COMPLETELY UNPREPARED FOR THE REAL WORLD. ALSO, CAN ONE OF YOU HELP ME CONNECT TO MY WI-FI?</p></div>
-            </li>
-            <li className="column-group half-gutters">
-              <div className="all-40 small-50 tiny-50"><img src={require("./images/north-korea.jpg")} alt="" /></div>
-              <div className="all-60 small-50 tiny-50"><p className='related-text'>I DON'T KNOW MUCH, BUT I DO KNOW THAT THE COMPLICATED AND VOLATILE SITUATION IN NORTH KOREA WOULD BE SOLVED IF OUR LEADERS JUST GREW SOME BALLS</p></div>
+              <div className="all-40 small-50 tiny-50"><a href="/articles/gender"><img src={require("./images/gender-roles.png")} alt="" /></a></div>
+              <div className="all-60 small-50 tiny-50"><p className='related-text'>IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</p></div>
             </li>
             <li className="column-group half-gutters">
               <div className="all-40 small-50 tiny-50"><a href="/articles/white-nationalist"><img src={require("./images/trump-white-nationalist.jpg")} alt="" /></a></div>
               <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP: "NO I AM NOT A WHITE NATIONALIST. WAIT, WHAT'S WHITE NATIONALISM? OH, IN THAT CASE I'M TOTALLY IN FAVOR OF IT."</p></div>
+            </li>
+            <li className="column-group half-gutters">
+              <div className="all-40 small-50 tiny-50"><img src={require("./images/north-korea.jpg")} alt="" /></div>
+              <div className="all-60 small-50 tiny-50"><p className='related-text'>I DON'T KNOW MUCH, BUT I DO KNOW THAT THE COMPLICATED AND VOLATILE SITUATION IN NORTH KOREA WOULD BE SOLVED IF OUR LEADERS JUST GREW SOME BALLS</p></div>
             </li>
           </section>
         </section>
@@ -115,4 +117,4 @@ class GenderArticlePage extends Component {
   }
 }
 
-export default GenderArticlePage
+export default WifiArticlePage

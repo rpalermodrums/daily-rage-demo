@@ -5,6 +5,10 @@ import Homepage from './components/pages/Homepage';
 import MillenialArticlePage from './components/pages/MillenialArticlePage';
 import PlantationArticlePage from './components/pages/PlantationArticlePage';
 import GenderArticlePage from './components/pages/GenderArticlePage';
+import WifiArticlePage from './components/pages/WifiArticlePage';
+import WhiteNationalistArticlePage from './components/pages/WhiteNationalistArticlePage';
+import GamestopArticlePage from './components/pages/GamestopArticlePage';
+import InternArticlePage from './components/pages/InternArticlePage';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -28,6 +32,10 @@ class App extends Component {
             <Route path='/articles/millenials' component={MillenialArticlePage} />
             <Route path='/articles/plantation' component={PlantationArticlePage} />
             <Route path='/articles/gender' component={GenderArticlePage} />
+            <Route path='/articles/wifi' component={WifiArticlePage} />
+            <Route path='/articles/white-nationalist' component={WhiteNationalistArticlePage} />
+            <Route path='/articles/gamestop' component={GamestopArticlePage} />
+            <Route path='/articles/intern' component={InternArticlePage} />
 
         </div>
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GenderArticlePage extends Component {
+class WhiteNationalistArticlePage extends Component {
   render () {
     return (
       <div className="ink-grid">
@@ -8,55 +8,53 @@ class GenderArticlePage extends Component {
           <div className="xlarge-70 large-70 medium-60 small-100 tiny-100">
             <article>
               <header>
-                <h1 className="push-left">IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</h1>
-                <p className="push-right">By Roy S. Patterson</p>
+                <h1 className="push-left">TRUMP: “NO, I DON’T SUPPORT WHITE NATIONALISM. WAIT, WHAT’S WHITE NATIONALISM? OH, IN THAT CASE, I’M TOTALLY IN FAVOR OF IT.”</h1>
+                <p className="push-right">By Daily Rage Staff</p>
               </header>
               <figure className="ink-image vertical-space">
-                <img src={require("./images/gender-roles.png")} alt="" height={500}/>
+                <img src={require("./images/trump-white-nationalist.jpg")} alt="" height={500}/>
               </figure>
-              <p>Nobody has suffered more from the dissolution of gender norms than American women. This cultural
+              <p>President Donald Trump made headlines following a rally yesterday when a reporter asked him if he
 
-                 shift has upset a critical balance within our society and forced females into unnatural roles. No matter
+                 supported white nationalism. Trump initially denied subscribing to the ideology before learning what it
 
-                 what feminists tell you, every woman wants to do the same three things: cook, clean, and die during
+                 was, at which point he changed his position.</p>
 
-                 childbirth.</p>
+              <p>“No I am not a white nationalist. I’ve never heard of white nationalism. What does that even mean?”
 
-              <p>Believe me, I love women. That’s why I’m so passionate about ensuring they meet untimely, preventable
+                 Trump said.</p>
 
-                 deaths. Whenever I see a stressed out female CEO, I think about how much happier she would be with
+              <p>The reporter then explained white nationalism as the belief that national identity should be built around
 
-                 undiagnosed eclampsia and internal hemorrhaging. It&#39;s common knowledge that a woman’s soft,
+                 white ethnicity, and that white people should therefore maintain both a demographic majority and
 
-                 osteoporotic bones aren’t meant for working an office job. No, women should stay home and enjoy the
-
-                 simple comforts of bleeding out when their baby is in breech.</p>
-
-              <p>It’s time to embrace the fact that men and women have separate biology. After all, society only finds
-
-                 harmony when men act like men and women act like women. God created the sexes as two halves of a
-
-                 whole. There is no better way for women to honor this divine feminine gift than having a life expectancy
-
-                 of 34.</p>
+                 dominance of the nation’s culture and public life.</p>
 
               <p>
-                Think for a moment. Imagine the America of your great-grandparents. The wonder of a friendly
+                “Oh, never mind then. I’m totally in favor of that. In fact that sounds like pretty much the entire point of
 
-                suburban neighborhood, local innovation on every street corner. Your great-grandmother, nine months
+                my presidency,” the president replied. “It’s about reasserting white dominance in an increasingly diverse
 
-                pregnant, preparing a fresh plate of eggs and bacon for her beloved. Your great-grandfather kissing her
+                nation. What did you think I meant by ‘Make America Great Again?’ I thought I was making myself pretty
 
-                on the cheek and heading to his job at the automotive factory. He is attaching the wheel to a Model T
-
-                when he receives a telegram that his wife is in labor. He wipes the sweat off his brow and smiles to
-
-                himself. He is a proud, hard-working American. Your great-grandmother dies within the hour from a
-
-                cervical tear.
+                clear.”
               </p>
 
-              <p>This is the America we must return to.</p>
+              <p>While some of Trump’s supporters took issue with his statements, most saw it as refreshingly honest.
+
+                 Mark Calloway, a Trump supporter who attended the rally, was surprised that it was even a question
+
+                 worth asking.</p>
+
+              <p>“I mean, yeah. He’s a white nationalist. It’s a white nationalist agenda. That’s…did anyone not get that?”
+
+                 Calloway said.</p>
+
+              <p>House Speaker Paul Ryan was quick to disavow the comments, stating “The Republican Party is not a
+
+                 white nationalist party.” When asked if he still stood behind Trump, Ryan quickly responded,
+
+                 “Absolutely.”</p>
 
               <footer>
                 <p><small>Creative Commons Attribution-ShareAlike License</small></p>
@@ -70,16 +68,12 @@ class GenderArticlePage extends Component {
               <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP ANNOUNCES UNPAID JOBS PLAN ON SOUTHERN PLANTATIONS</p></div>
             </li>
             <li className="column-group half-gutters">
-              <div className="all-40 small-50 tiny-50"><a href="/articles/wifi"><img src={require("./images/Wifi.jpg")} alt="" /></a></div>
-              <div className="all-60 small-50 tiny-50"><p className='related-text'>MILLENNIALS ARE COMPLETELY UNPREPARED FOR THE REAL WORLD. ALSO, CAN ONE OF YOU HELP ME CONNECT TO MY WI-FI?</p></div>
+              <div className="all-40 small-50 tiny-50"><a href="/articles/gender"><img src={require("./images/gender-roles.png")} alt="" /></a></div>
+              <div className="all-60 small-50 tiny-50"><p className='related-text'>IT’S TIME FOR WOMEN TO RETURN TO TRADITIONAL GENDER ROLES, LIKE DYING IN CHILDBIRTH</p></div>
             </li>
             <li className="column-group half-gutters">
               <div className="all-40 small-50 tiny-50"><img src={require("./images/north-korea.jpg")} alt="" /></div>
               <div className="all-60 small-50 tiny-50"><p className='related-text'>I DON'T KNOW MUCH, BUT I DO KNOW THAT THE COMPLICATED AND VOLATILE SITUATION IN NORTH KOREA WOULD BE SOLVED IF OUR LEADERS JUST GREW SOME BALLS</p></div>
-            </li>
-            <li className="column-group half-gutters">
-              <div className="all-40 small-50 tiny-50"><a href="/articles/white-nationalist"><img src={require("./images/trump-white-nationalist.jpg")} alt="" /></a></div>
-              <div className="all-60 small-50 tiny-50"><p className='related-text'>TRUMP: "NO I AM NOT A WHITE NATIONALIST. WAIT, WHAT'S WHITE NATIONALISM? OH, IN THAT CASE I'M TOTALLY IN FAVOR OF IT."</p></div>
             </li>
           </section>
         </section>
@@ -115,4 +109,4 @@ class GenderArticlePage extends Component {
   }
 }
 
-export default GenderArticlePage
+export default WhiteNationalistArticlePage
