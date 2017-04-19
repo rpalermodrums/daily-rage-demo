@@ -11,12 +11,8 @@ class MillenialArticlePage extends Component {
                 <h1 className="push-left">Pampered Millennial Feels Entitled To Non-Demagogue President</h1>
                 {/*<p className="push-right">Published: <time /></p>*/}
               </header>
-              <summary>But being in a great hurry to resume scolding the man in the purple Shirt, who was waiting for it in the entry, and seeming to hear nothing but the word "clam," Mrs. Hussey hurried towards an open door leading to the kitchen, and bawling out "clam for two," disappeared.</summary>
               <figure className="ink-image vertical-space">
                 <img src={require("./images/pampered-millennial.jpg")} alt="" />
-                  <figcaption className="dark over-bottom">
-                    "Because you wear silver shoes and have killed the Wicked Witch. Besides, you have white in your frock, and only witches and sorceresses wear white."
-                  </figcaption>
               </figure>
               <p>NEW JERSEY—Over a month after the election of Donald Trump, 24-year- old Nicole
 

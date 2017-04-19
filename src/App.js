@@ -3,6 +3,7 @@ import './App.css';
 
 import Homepage from './components/pages/Homepage';
 import MillenialArticlePage from './components/pages/MillenialArticlePage';
+import PlantationArticlePage from './components/pages/PlantationArticlePage';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -16,14 +17,13 @@ class App extends Component {
             <h1>DAILY RAGE<small>Some tag line</small></h1>
             <nav className="ink-navigation">
               <ul className="menu horizontal black">
-                <li className="active"><a href="#">Home</a></li>
-                <li><a href="#">item</a></li>
-                <li><a href="#">item</a></li>
+                <li className="active"><a href="/">Home</a></li>
               </ul>
             </nav>
           </header>
             <Route exact path='/' component={Homepage} />
             <Route path='/articles/millenials' component={MillenialArticlePage} />
+            <Route path='/articles/plantation' component={PlantationArticlePage} />
 
         </div>
 
