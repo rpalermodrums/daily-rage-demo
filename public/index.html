@@ -29,6 +29,7 @@
   <link rel="apple-touch-startup-image" href="https://cdn.ink.sapo.pt/3.1.10/img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
   <link rel="apple-touch-startup-image" href="https://cdn.ink.sapo.pt/3.1.10/img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
   <link rel="apple-touch-startup-image" href="https://cdn.ink.sapo.pt/3.1.10/img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- load Ink's css from the cdn -->
   <link rel="stylesheet" type="text/css" href="https://cdn.ink.sapo.pt/3.1.10/css/ink-flex.min.css">
@@ -156,33 +157,43 @@
   </style>
 
 </head>
-<body>
-  <div class="ink-grid">
-    <div id="root"></div>
-    <div id="disqus_thread" class="xlarge-70 large-70 medium-60 small-100 tiny-100"></div>
-  </div>
-  <script>
+  <body>
+    <div class="ink-grid">
+      <div id="root"></div>
+      <div id="disqus_thread" class="xlarge-70 large-70 medium-60 small-100 tiny-100"></div>
+    </div>
+    <footer class="clearfix">
+      <div class="ink-grid">
+        <ul class="unstyled inline half-vertical-space">
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <p className="note">Identification of the owner of the copyright, either by name, abbreviation, or other designation by which it is generally known.</p>
+      </div>
+    </footer>
+    <script>
 
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-     var disqus_config = function () {
-     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-     };
-     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-      if (window.location.pathname !== '/') {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://www-dailyragenews-com.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      }
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <script id="dsq-count-scr" src="//www-dailyragenews-com.disqus.com/count.js" async></script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+       var disqus_config = function () {
+       this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       */
+      (function() { // DON'T EDIT BELOW THIS LINE
+        if (window.location.pathname !== '/') {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://www-dailyragenews-com.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        }
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//www-dailyragenews-com.disqus.com/count.js" async></script>
   </body>
 
 </html>

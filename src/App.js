@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './App.css';
 
 import Homepage from './components/pages/Homepage';
@@ -35,6 +36,8 @@ class App extends Component {
           <Route path='/articles/white-nationalist' component={WhiteNationalistArticlePage} />
           <Route path='/articles/gamestop' component={GamestopArticlePage} />
           <Route path='/articles/intern' component={InternArticlePage} />
+          {/*<button><i href="#" className="fa fa-facebook"></i></button>*/}
+          {/*<button><i href="#" className="fa fa-twitter"></i></button>*/}
         </div>
       </Router>
     );
