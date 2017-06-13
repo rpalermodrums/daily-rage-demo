@@ -26,6 +26,7 @@ SECRET_KEY = ')+y7)v2#ea6ga_u1ftmff+qwkuyxaf6n*$$_ih!n_&7ep=i1j@'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
     '.dailyragenews.com',
 ]
 
