@@ -25,7 +25,9 @@ SECRET_KEY = ')+y7)v2#ea6ga_u1ftmff+qwkuyxaf6n*$$_ih!n_&7ep=i1j@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '.dailyragenews.com',
+]
 
 
 # Application definition
